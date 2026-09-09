@@ -337,23 +337,23 @@ body {
     min-width: 200px;
 }
 
-/* Contact Section */
-.contact {
+/* Support Section */
+.support {
     padding: 100px 20px;
     background-color: var(--bg-light);
 }
 
-.contact .section-title {
+.support .section-title {
     color: var(--text-dark);
 }
 
-.contact-content {
+.support-content {
     max-width: 700px;
     margin: 0 auto;
     text-align: center;
 }
 
-.contact-info {
+.support-box {
     background-color: var(--bg-white);
     padding: 3rem;
     border-radius: 10px;
@@ -361,32 +361,32 @@ body {
     margin-top: 2rem;
 }
 
-.contact-info h3 {
+.support-box h3 {
     color: var(--text-dark);
     font-size: 1.3rem;
     margin-bottom: 1.5rem;
     font-weight: 600;
 }
 
-.contact-info p {
+.support-box p {
     color: var(--text-muted);
     margin-bottom: 1.5rem;
     font-size: 0.95rem;
     line-height: 1.8;
 }
 
-.contact-info a {
+.support-box a {
     color: var(--accent-orange);
     text-decoration: none;
     font-weight: 600;
     transition: color 0.3s ease;
 }
 
-.contact-info a:hover {
+.support-box a:hover {
     color: var(--accent-red);
 }
 
-.contact-buttons {
+.support-buttons {
     display: flex;
     gap: 1.5rem;
     justify-content: center;
@@ -394,7 +394,7 @@ body {
     margin-top: 2rem;
 }
 
-.contact-buttons .btn {
+.support-buttons .btn {
     min-width: 180px;
 }
 
@@ -488,16 +488,16 @@ body {
     }
 
     .apply-buttons,
-    .contact-buttons {
+    .support-buttons {
         flex-direction: column;
     }
 
     .apply-buttons .btn,
-    .contact-buttons .btn {
+    .support-buttons .btn {
         width: 100%;
     }
 
-    .contact-info {
+    .support-box {
         padding: 2rem;
     }
 }
